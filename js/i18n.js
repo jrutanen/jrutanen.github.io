@@ -25,9 +25,9 @@ const translations = {
       title:     "Apps we're building",
       lead:      "Simple, focused tools designed to fit naturally into your day.",
     },
-    clevrlist: {
+    clevrcart: {
       tag:       "Shopping",
-      desc:      "A clever shopping list that remembers what you often forget. Smart reminders make sure nothing gets left behind.",
+      desc:      "A clever shopping cart that remembers what you often forget. Smart reminders make sure nothing gets left behind.",
       cta:       "Learn more",
     },
     about: {
@@ -35,16 +35,16 @@ const translations = {
       title:     "Who we are",
       lead:      "Lundasoft is a Nordic software company focused on building beautiful, practical apps for everyday life.",
     },
-    clevrlist_page: {
+    clevrcart_page: {
       back:             "Back to Lundasoft",
-      tagline:          "The shopping list that thinks ahead.",
+      tagline:          "The shopping cart that thinks ahead.",
       store_cta:        "Coming soon",
       features_eyebrow: "Features",
       features_title:   "Everything you need, nothing you don't",
       feat1_title:      "Smart reminders",
       feat1_desc:       "Get reminded of items you regularly buy but easily forget before you reach the store.",
       feat2_title:      "Learns your habits",
-      feat2_desc:       "Clevrlist picks up on your shopping patterns and suggests items at the right moment.",
+      feat2_desc:       "ClevrCart picks up on your shopping patterns and suggests items at the right moment.",
       feat3_title:      "Fast & simple",
       feat3_desc:       "Add items in seconds. No clutter, no accounts needed to get started.",
       feat4_title:      "Works offline",
@@ -75,9 +75,9 @@ const translations = {
       title:     "Sovelluksia, joita rakennamme",
       lead:      "Yksinkertaisia, kohdennettuja työkaluja, jotka sopivat luontevasti päivääsi.",
     },
-    clevrlist: {
+    clevrcart: {
       tag:       "Ostoslista",
-      desc:      "Älykäs ostoslista, joka muistaa sen, minkä sinä unohdat. Älykkäät muistutukset huolehtivat, ettei mitään jää puuttumaan.",
+      desc:      "Älykäs ostoskori, joka muistaa sen, minkä sinä unohdat. Älykkäät muistutukset huolehtivat, ettei mitään jää puuttumaan.",
       cta:       "Lue lisää",
     },
     about: {
@@ -85,16 +85,16 @@ const translations = {
       title:     "Keitä olemme",
       lead:      "Lundasoft on pohjoismainen ohjelmistoyritys, joka rakentaa kauniita ja käytännöllisiä sovelluksia arkielämään.",
     },
-    clevrlist_page: {
+    clevrcart_page: {
       back:             "Takaisin Lundasoftiin",
-      tagline:          "Ostoslista, joka ajattelee edellä.",
+      tagline:          "Ostoskori, joka ajattelee edellä.",
       store_cta:        "Tulossa pian",
       features_eyebrow: "Ominaisuudet",
       features_title:   "Kaikki tarvittava, ei mitään turhaa",
       feat1_title:      "Älykäs muistutus",
       feat1_desc:       "Saat muistutuksen tuotteista, joita ostat säännöllisesti mutta helposti unohdat ennen kauppaa.",
       feat2_title:      "Oppii tottumuksesi",
-      feat2_desc:       "Clevrlist seuraa ostoskaavioitasi ja ehdottaa tuotteita oikeaan aikaan.",
+      feat2_desc:       "ClevrCart seuraa ostoskaavioitasi ja ehdottaa tuotteita oikeaan aikaan.",
       feat3_title:      "Nopea ja yksinkertainen",
       feat3_desc:       "Lisää tuotteita sekunneissa. Ei turhaa, ei vaadi tiliä aloittaaksesi.",
       feat4_title:      "Toimii offline",
@@ -125,9 +125,9 @@ const translations = {
       title:     "Appar vi bygger",
       lead:      "Enkla, fokuserade verktyg designade för att passa naturligt in i din vardag.",
     },
-    clevrlist: {
+    clevrcart: {
       tag:       "Inköpslista",
-      desc:      "En smart inköpslista som minns det du lätt glömmer. Smarta påminnelser ser till att ingenting missas.",
+      desc:      "En smart kundvagn som minns det du lätt glömmer. Smarta påminnelser ser till att ingenting missas.",
       cta:       "Läs mer",
     },
     about: {
@@ -135,16 +135,16 @@ const translations = {
       title:     "Vilka vi är",
       lead:      "Lundasoft är ett nordiskt programvaruföretag som fokuserar på att bygga vackra, praktiska appar för vardagslivet.",
     },
-    clevrlist_page: {
+    clevrcart_page: {
       back:             "Tillbaka till Lundasoft",
-      tagline:          "Inköpslistan som tänker framåt.",
+      tagline:          "Kundvagnen som tänker framåt.",
       store_cta:        "Kommer snart",
       features_eyebrow: "Funktioner",
       features_title:   "Allt du behöver, inget du inte behöver",
       feat1_title:      "Smarta påminnelser",
       feat1_desc:       "Få påminnelser om varor du köper regelbundet men lätt glömmer innan du når butiken.",
       feat2_title:      "Lär sig dina vanor",
-      feat2_desc:       "Clevrlist lär sig dina shoppingmönster och föreslår varor vid rätt tidpunkt.",
+      feat2_desc:       "ClevrCart lär sig dina shoppingmönster och föreslår varor vid rätt tidpunkt.",
       feat3_title:      "Snabb och enkel",
       feat3_desc:       "Lägg till varor på sekunder. Inga krångel, inget konto behövs för att komma igång.",
       feat4_title:      "Fungerar offline",
@@ -175,9 +175,9 @@ const translations = {
       title:     "Apps vi bygger",
       lead:      "Enkle, fokuserede værktøjer designet til at passe naturligt ind i din dag.",
     },
-    clevrlist: {
+    clevrcart: {
       tag:       "Indkøbsliste",
-      desc:      "En smart indkøbsliste, der husker det, du glemmer. Smarte påmindelser sikrer, at intet bliver glemt.",
+      desc:      "En smart indkøbsvogn, der husker det, du glemmer. Smarte påmindelser sikrer, at intet bliver glemt.",
       cta:       "Læs mere",
     },
     about: {
@@ -185,16 +185,16 @@ const translations = {
       title:     "Hvem vi er",
       lead:      "Lundasoft er et nordisk softwareselskab, der fokuserer på at bygge smukke, praktiske apps til hverdagslivet.",
     },
-    clevrlist_page: {
+    clevrcart_page: {
       back:             "Tilbage til Lundasoft",
-      tagline:          "Indkøbslisten der tænker fremad.",
+      tagline:          "Indkøbsvognen der tænker fremad.",
       store_cta:        "Kommer snart",
       features_eyebrow: "Funktioner",
       features_title:   "Alt hvad du har brug for, intet du ikke har",
       feat1_title:      "Smarte påmindelser",
       feat1_desc:       "Få påmindelser om varer du køber regelmæssigt, men let glemmer inden du når butikken.",
       feat2_title:      "Lærer dine vaner",
-      feat2_desc:       "Clevrlist lærer dine indkøbsmønstre og foreslår varer på det rigtige tidspunkt.",
+      feat2_desc:       "ClevrCart lærer dine indkøbsmønstre og foreslår varer på det rigtige tidspunkt.",
       feat3_title:      "Hurtig og enkel",
       feat3_desc:       "Tilføj varer på sekunder. Ingen rod, ingen konto nødvendig for at komme i gang.",
       feat4_title:      "Virker offline",
@@ -225,9 +225,9 @@ const translations = {
       title:     "Apps, die wir bauen",
       lead:      "Einfache, fokussierte Werkzeuge, die sich natürlich in deinen Alltag einfügen.",
     },
-    clevrlist: {
+    clevrcart: {
       tag:       "Einkaufsliste",
-      desc:      "Eine clevere Einkaufsliste, die sich merkt, was du oft vergisst. Smarte Erinnerungen sorgen dafür, dass nichts fehlt.",
+      desc:      "Ein cleverer Einkaufswagen, der sich merkt, was du oft vergisst. Smarte Erinnerungen sorgen dafür, dass nichts fehlt.",
       cta:       "Mehr erfahren",
     },
     about: {
@@ -235,16 +235,16 @@ const translations = {
       title:     "Wer wir sind",
       lead:      "Lundasoft ist ein nordisches Softwareunternehmen, das sich auf schöne, praktische Apps für den Alltag spezialisiert hat.",
     },
-    clevrlist_page: {
+    clevrcart_page: {
       back:             "Zurück zu Lundasoft",
-      tagline:          "Die Einkaufsliste, die vorausdenkt.",
+      tagline:          "Der Einkaufswagen, der vorausdenkt.",
       store_cta:        "Demnächst verfügbar",
       features_eyebrow: "Funktionen",
       features_title:   "Alles was du brauchst, nichts was du nicht brauchst",
       feat1_title:      "Smarte Erinnerungen",
       feat1_desc:       "Erhalte Erinnerungen für Artikel, die du regelmäßig kaufst, aber leicht vergisst.",
       feat2_title:      "Lernt deine Gewohnheiten",
-      feat2_desc:       "Clevrlist erkennt deine Einkaufsmuster und schlägt Artikel zum richtigen Moment vor.",
+      feat2_desc:       "ClevrCart erkennt deine Einkaufsmuster und schlägt Artikel zum richtigen Moment vor.",
       feat3_title:      "Schnell und einfach",
       feat3_desc:       "Artikel in Sekunden hinzufügen. Kein Konto erforderlich zum Starten.",
       feat4_title:      "Funktioniert offline",
@@ -275,9 +275,9 @@ const translations = {
       title:     "Les apps que nous développons",
       lead:      "Des outils simples et ciblés, conçus pour s'intégrer naturellement dans votre quotidien.",
     },
-    clevrlist: {
+    clevrcart: {
       tag:       "Liste de courses",
-      desc:      "Une liste de courses intelligente qui se souvient de ce que vous oubliez souvent. Des rappels malins pour ne rien laisser de côté.",
+      desc:      "Un caddie intelligent qui se souvient de ce que vous oubliez souvent. Des rappels malins pour ne rien laisser de côté.",
       cta:       "En savoir plus",
     },
     about: {
@@ -285,16 +285,16 @@ const translations = {
       title:     "Qui nous sommes",
       lead:      "Lundasoft est une entreprise logicielle nordique spécialisée dans la création d'applications belles et pratiques pour la vie quotidienne.",
     },
-    clevrlist_page: {
+    clevrcart_page: {
       back:             "Retour à Lundasoft",
-      tagline:          "La liste de courses qui pense à l'avance.",
+      tagline:          "Le caddie qui pense à l'avance.",
       store_cta:        "Bientôt disponible",
       features_eyebrow: "Fonctionnalités",
       features_title:   "Tout ce qu'il vous faut, rien de superflu",
       feat1_title:      "Rappels intelligents",
       feat1_desc:       "Recevez des rappels pour les articles que vous achetez régulièrement mais oubliez facilement.",
       feat2_title:      "Apprend vos habitudes",
-      feat2_desc:       "Clevrlist apprend vos habitudes d'achat et suggère des articles au bon moment.",
+      feat2_desc:       "ClevrCart apprend vos habitudes d'achat et suggère des articles au bon moment.",
       feat3_title:      "Rapide et simple",
       feat3_desc:       "Ajoutez des articles en quelques secondes. Sans complications, sans compte requis.",
       feat4_title:      "Fonctionne hors ligne",

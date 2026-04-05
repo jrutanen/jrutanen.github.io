@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ClevrCart – A clever shopping cart app by Lundasoft." />
+  <title>ClevrCart – Lundasoft</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <!-- ── Navbar ──────────────────────────────────────────────── -->
+  <header>
+    <nav class="navbar">
+      <a class="navbar__logo" href="../../">
+        <img src="../../assets/images/lundasoft_logo.svg" alt="Lundasoft" />
+      </a>
+      <ul class="navbar__links">
+        <li><a href="../../#products" data-i18n="nav.products">Products</a></li>
+        <li><a href="../../#about" data-i18n="nav.about">About</a></li>
+      </ul>
+      <div class="lang-switcher" aria-label="Language selector">
+        <button class="lang-btn" data-lang="en"  aria-label="English">EN</button>
+        <button class="lang-btn" data-lang="fi"  aria-label="Finnish">FI</button>
+        <button class="lang-btn" data-lang="sv"  aria-label="Swedish">SV</button>
+        <button class="lang-btn" data-lang="da"  aria-label="Danish">DA</button>
+        <button class="lang-btn" data-lang="de"  aria-label="German">DE</button>
+        <button class="lang-btn" data-lang="fr"  aria-label="French">FR</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ── Product Hero ────────────────────────────────────────── -->
+  <section class="product-hero">
+    <a href="../../" class="product-hero__back" data-i18n="clevrcart_page.back">Back to Lundasoft</a>
+    <div class="product-hero__badge" data-i18n="clevrcart.tag">Shopping</div>
+    <h1 class="product-hero__title">ClevrCart</h1>
+    <p class="product-hero__tagline" data-i18n="clevrcart_page.tagline">The shopping cart that thinks ahead.</p>
+    <a href="#" class="btn btn--primary" data-i18n="clevrcart_page.store_cta">Coming soon</a>
+  </section>
+
+  <!-- ── Features ────────────────────────────────────────────── -->
+  <section class="section section--alt" id="features">
+    <div class="section__header">
+      <p class="section__eyebrow" data-i18n="clevrcart_page.features_eyebrow">Features</p>
+      <h2 class="section__title" data-i18n="clevrcart_page.features_title">Everything you need, nothing you don't</h2>
+    </div>
+    <div class="features-grid">
+
+      <div class="feature-card">
+        <div class="feature-card__icon" aria-hidden="true">🔔</div>
+        <h3 class="feature-card__title" data-i18n="clevrcart_page.feat1_title">Smart reminders</h3>
+        <p class="feature-card__desc" data-i18n="clevrcart_page.feat1_desc">Get reminded of items you regularly buy but easily forget before you reach the store.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card__icon" aria-hidden="true">🧠</div>
+        <h3 class="feature-card__title" data-i18n="clevrcart_page.feat2_title">Learns your habits</h3>
+        <p class="feature-card__desc" data-i18n="clevrcart_page.feat2_desc">ClevrCart picks up on your shopping patterns and suggests items at the right moment.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card__icon" aria-hidden="true">⚡</div>
+        <h3 class="feature-card__title" data-i18n="clevrcart_page.feat3_title">Fast &amp; simple</h3>
+        <p class="feature-card__desc" data-i18n="clevrcart_page.feat3_desc">Add items in seconds. No clutter, no accounts needed to get started.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card__icon" aria-hidden="true">📱</div>
+        <h3 class="feature-card__title" data-i18n="clevrcart_page.feat4_title">Works offline</h3>
+        <p class="feature-card__desc" data-i18n="clevrcart_page.feat4_desc">Your list is always with you, even without an internet connection.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Screenshots / Video ─────────────────────────────────── -->
+  <!-- Replace the placeholder divs below with real <img> or <video> tags when ready.
+       Images  → drop in assets/images/clevrcart/
+       Videos  → drop in assets/videos/clevrcart/
+
+       Example image:
+         <div class="app-image">
+           <img src="../../assets/images/clevrcart/screenshot-home.png" alt="ClevrCart home screen" />
+         </div>
+
+       Example video:
+         <div class="app-video">
+           <video controls poster="../../assets/images/clevrcart/poster.jpg">
+             <source src="../../assets/videos/clevrcart/demo.mp4" type="video/mp4" />
+           </video>
+         </div>
+  -->
+  <section class="section">
+    <div class="section__header">
+      <p class="section__eyebrow" data-i18n="clevrcart_page.media_eyebrow">See it in action</p>
+      <h2 class="section__title" data-i18n="clevrcart_page.media_title">Screenshots &amp; demo</h2>
+    </div>
+    <div class="media-placeholder">
+      <div class="app-image" data-i18n="clevrcart_page.img_placeholder">Screenshot coming soon</div>
+      <div class="app-video" data-i18n="clevrcart_page.video_placeholder">Video coming soon</div>
+    </div>
+  </section>
+
+  <!-- ── Footer ───────────────────────────────────────────────── -->
+  <footer class="footer">
+    <p class="footer__brand">LUNDASOFT</p>
+    <p data-i18n="footer.copy">© 2026 Lundasoft. All rights reserved.</p>
+    <p style="margin-top:0.5rem;"><a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+
+  <script src="../../js/i18n.js"></script>
+</body>
+</html>
