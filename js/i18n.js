@@ -370,10 +370,9 @@ function applyTranslations(lang) {
     if (value !== undefined) el.placeholder = value;
   });
 
-  // Mark active button
-  document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.classList.toggle('lang-btn--active', btn.dataset.lang === lang);
-  });
+  // Sync dropdown
+  const sel = document.querySelector('.lang-select');
+  if (sel) sel.value = lang;
 
   document.documentElement.lang = lang;
 }
@@ -389,7 +388,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const lang = detectLang();
   applyTranslations(lang);
 
-  document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.addEventListener('click', () => switchLang(btn.dataset.lang));
-  });
+  const sel = document.querySelector('.lang-select');
+  if (sel) sel.addEventListener('change', () => switchLang(sel.value));
 });
