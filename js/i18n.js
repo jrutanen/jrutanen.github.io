@@ -387,7 +387,11 @@ function switchLang(lang) {
 document.addEventListener('DOMContentLoaded', () => {
   const lang = detectLang();
   applyTranslations(lang);
+});
 
-  const sel = document.querySelector('.lang-select');
-  if (sel) sel.addEventListener('change', () => switchLang(sel.value));
+// Event delegation – works regardless of when the select is rendered
+document.addEventListener('change', (e) => {
+  if (e.target.classList.contains('lang-select')) {
+    switchLang(e.target.value);
+  }
 });
